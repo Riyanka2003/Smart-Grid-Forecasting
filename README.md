@@ -19,9 +19,9 @@ As renewable energy sources (Solar/Wind) make the grid more unstable, accurate d
 
 ```mermaid
 graph LR
-    A[Historical Data (24h)] --> B(LSTM Layer - Memory);
-    B --> C(Dense Layer - Logic);
-    C --> D[Predicted Load (MW)];
+    A["Historical Data (24h)"] --> B(LSTM Layer - Memory)
+    B --> C(Dense Layer - Logic)
+    C --> D["Predicted Load (MW)"]
     
     style A fill:#f9f,stroke:#333,stroke-width:2px
     style B fill:#bbf,stroke:#333,stroke-width:2px
